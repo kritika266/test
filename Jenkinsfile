@@ -2,7 +2,7 @@ pipeline {
     agent any
  
     environment {
-        PYTHON_PATH = 'C:\Program Files\Python312;C:\Program Files\Python312\Scripts'
+        PYTHON_PATH = 'C:/Program Files/Python312;C:/Program Files/Python312/Scripts'
         SONAR_SCANNER_PATH = 'C:\Users\HP\Downloads\sonar-scanner-cli-6.2.1.4610-windows-x64\sonar-scanner-6.2.1.4610-windows-x64\bin'
     }
  
